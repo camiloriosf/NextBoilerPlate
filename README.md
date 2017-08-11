@@ -1,1 +1,3 @@
 # NextBoilerPlate
+
+* Added dependencies
