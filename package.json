@@ -19,12 +19,18 @@
   "homepage": "https://github.com/camiloriosf/NextBoilerPlate#readme",
   "dependencies": {
     "express": "^4.15.4",
+    "i18next": "^8.4.3",
+    "i18next-browser-languagedetector": "^2.0.0",
+    "i18next-express-middleware": "^1.0.5",
+    "i18next-node-fs-backend": "^1.0.0",
+    "i18next-xhr-backend": "^1.4.2",
     "material-ui": "^1.0.0-beta.4",
     "material-ui-icons": "^1.0.0-alpha.19",
     "next": "^3.0.3",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-i18next": "^4.8.0",
     "react-jss": "^7.0.2"
   },
   "devDependencies": {
