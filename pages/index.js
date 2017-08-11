@@ -1,7 +1,10 @@
 import React from 'react';
+import App from '../components/App';
 
 export default () => (
-  <div>
-    BoilerPlate
-  </div>
+  <App>
+    <div>
+      BoilerPlate
+    </div>
+  </App>
 );

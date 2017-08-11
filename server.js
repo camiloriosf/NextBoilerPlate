@@ -10,10 +10,6 @@ app.prepare()
   .then(() => {
     const server = express();
 
-    server.get('/a', (req, res) => app.render(req, res, '/b', req.query));
-
-    server.get('/b', (req, res) => app.render(req, res, '/a', req.query));
-
     server.get('*', (req, res) => handle(req, res));
 
     server.listen(port, (err) => {
